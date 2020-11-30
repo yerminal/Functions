@@ -17,3 +17,6 @@ def find_gcd(a,b):
     if(small%a!=0 or big%a!=0):
         return 1
     return a
+
+def find_lcm(a,b):
+    return a * (b/find_gcd(a, b))
