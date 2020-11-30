@@ -18,5 +18,20 @@ def find_gcd(a,b):
         return 1
     return a
 
+#Finding lcm of two numbers
 def find_lcm(a,b):
     return a * (b/find_gcd(a, b))
+
+#Finding gcd of a list
+def find_gcd_list(lst):
+    result = lst[0]
+    for i in lst[1:]:
+        result = find_gcd(result, i)
+    return result
+
+#Finding lcm of a list
+def find_lcm_list(lst):
+    result = lst[0]
+    for i in lst[1:]:
+        result = find_lcm(result, i)
+    return result
