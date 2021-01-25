@@ -11,7 +11,7 @@ def mode_dict(lst): # It returns a dict that contains frequencies of the input.
             unique_values[i] += 1
     return unique_values
 
-def mode(lst): # It returns all modes of the input.
+def mode(lst): # It returns a list that contains all modes of the input.
     """
     >>> mode(["x","y","x"])
     ['x']
