@@ -1,2 +1,2 @@
 # Functions
-the storage for common and important functions
+the storage for common and basic functions
